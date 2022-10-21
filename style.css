@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Megrim&display=swap');
+*{
+  font-family: 'Megrim', cursive;
+  color: white;
+}
+
+.gfg {
+  position:relative;
+  width:100%;
+  height:100%;
+}
+.jack {
+  position: absolute;
+  top: 30px;
+  left: 60px;
+}
+.definition {
+  display: none;
+}
+.jack:hover + .definition {
+  display: block;
+  position: absolute;
+  font-size: 15px;
+  top: 68px;
+  left:60px;
+  color:white;
+  font-weight: normal;
+  width:90%;
+}
+.jack:hover {
+  color:yellow;
+}
+.etymology {
+  position: absolute;
+  font-size: 25px;
+  top:350px;
+  left:900px;
+  color: white;
+  font-weight: bold;
+}
+.etymology:hover {
+  color: yellow;
+}
+.etymology_definition{
+  display: none;
+}
+.etymology:hover + .etymology_definition {
+  display: block;
+  position: absolute;
+  font-size: 15px;
+  top: 380px;
+  left:1000px;
+  color:white;
+  font-weight:normal;
+}
+.history{
+  position: absolute;
+  font-size: 25px;
+  top:310px;
+  left:80px;
+  color: white;
+  font-weight: bold;
+}
+.history:hover{
+  color:yellow;
+}
+.origin{
+  position: absolute;
+  font-size: 25px;
+  top:350px;
+  left:80px;
+  color: white;
+  font-weight: normal;
+}
+.origin:hover {
+  color:yellow;
+}
+.origin_d{
+  display:none;
+}
+.origin:hover + .origin_d{
+  display: block;
+  position: absolute;
+  font-size: 15px;
+  top: 350px;
+  left:250px;
+  width:31%;
+  color:white;
+  font-weight:normal;
+}
+.north{
+  position: absolute;
+  font-size: 25px;
+  top:390px;
+  left:80px;
+  color: white;
+  font-weight: normal;
+}
+.north:hover {
+  color:yellow;
+}
+.north_d{
+  display:none;
+}
+.north:hover + .north_d{
+  display: block;
+  position: absolute;
+  font-size: 15px;
+  top: 200px;
+  left:250px;
+  width:31%;
+  color:white;
+  font-weight:normal;
+}
+.folk{
+  position: absolute;
+  font-size: 25px;
+  top:460px;
+  left:80px;
+  color: white;
+  font-weight: normal;
+}
+.folk:hover {
+  color:yellow;
+}
+.folk_d{
+  display:none;
+}
+.folk:hover + .folk_d{
+  display: block;
+  position: absolute;
+  font-size: 15px;
+  top: 200px;
+  left:250px;
+  width:31%;
+  color:white;
+  font-weight:normal;
+}
+.craft{
+  position: absolute;
+  font-size: 25px;
+  top:360px;
+  right:80px;
+  color: white;
+  font-weight: bold;
+}
+.craft:hover {
+  color:yellow;
+}
+.craft_d{
+  display:none;
+}
+.craft:hover + .craft_d{
+  display: block;
+  position: absolute;
+  font-size: 15px;
+  top: 390px;
+  right:60px;
+  width:31%;
+  color:white;
+  font-weight:normal;
+}
+.world{
+  position: absolute;
+  font-size: 25px;
+  top:560px;
+  right:580px;
+  color: white;
+  font-weight: bold;
+}
+.world:hover {
+  color:yellow;
+}
+.world_d{
+  display:none;
+}
+.world:hover + .world_d{
+  display: block;
+  position: absolute;
+  font-size: 15px;
+  top: 420px;
+  right:170px;
+  width:20%;
+  color:white;
+  font-weight:normal;
+}
